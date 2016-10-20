@@ -13,7 +13,8 @@
 
 #ifdef LUMBERJACK
     #define LOG_LEVEL_DEF ddLogLevel
-    #import <CocoaLumberjack/CocoaLumberjack.h>
+    @import CocoaLumberjack;
+//    #import <CocoaLumberjack/CocoaLumberjack.h>
     #ifndef myLogLevel
         #ifdef DEBUG
             static const DDLogLevel ddLogLevel = DDLogLevelWarning;
