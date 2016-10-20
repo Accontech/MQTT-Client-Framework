@@ -13,6 +13,7 @@
 
 #ifdef LUMBERJACK
     #define LOG_LEVEL_DEF ddLogLevel
+//    Temporary solution until CocoaLumberjack fixes the problem https://github.com/CocoaLumberjack/CocoaLumberjack/issues/778
     @import CocoaLumberjack;
 //    #import <CocoaLumberjack/CocoaLumberjack.h>
     #ifndef myLogLevel
